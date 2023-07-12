@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Salma Abdulatif // Web Developer</title>
+    <!-- Bootstrap CSS -->
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <h2>Salma Abdulatif</h2>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to my portfolio!</h1>
+        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque quaerat corrupti modi eos ut aliquid accusamus. Inventore aliquam sequi voluptatibus ex alias magni cumque, maxime saepe quas, incidunt aperiam.</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" role="button" data-toggle="modal" data-target="#exampleModal">Learn more</a>
+
+      </div>
+
+    <!-- hero banner -->
+    <section class="hero-banner">
+      <img id="target" src="./css/assets/images/modern-flowing-colorful-wave-banner-background_1035-19861.jpg.avif" />
+    </section>
+
+    <main class="page-wrapper">
+      <!-- about me -->
+      <section class="page-section" id="about">
+
+        <h2>About Me</h2>
+        <div class="about-me-content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam cum
+            id debitis ipsam expedita, temporibus, nam nostrum harum atque
+            labore provident voluptate nesciunt dolor saepe obcaecati sed soluta
+            optio hic.
+          </p>
+          <img src="./css/assets/images/Flower-Images-Tumblr-768x480.jpg" alt="Flower-Images-Tumblr-768x480">
+        </div>
+      </section>
+
+      <!-- portfolio container -->
+      <section class="page-section" id="work">
+        <h2>Work</h2>
+        <div class="container">
+            <div class="row row-cols-2">
+              <div class="col">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, possimus. Quas voluptas, veritatis minima laborum totam consequatur sit dignissimos possimus eligendi sequi, corporis natus reiciendis quisquam modi non rerum hic!</div>
+              <div class="col">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni quibusdam sunt sed, maxime fugit quis dolores assumenda veniam amet rerum delectus, impedit ut tempora ullam quam beatae consequuntur. Aliquid, provident!</div>
+              <div class="col">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium aperiam nihil, delectus assumenda dignissimos rem. Veritatis, quisquam! Ratione iusto, in illo dolore possimus quas voluptatum numquam, nemo maxime ea quaerat!</div>
+              <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eum, ab optio culpa quas ipsa minus. Fugit magni saepe asperiores, animi, reprehenderit perferendis sed, modi enim cum officiis aut id!</div>
+            </div>
+          </div>
+      </section>
+
+      
+      <!-- contact -->
+      <section class="page-section contact" id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <div>
+            <label for="fname">First name: </label
+            ><input type="text" id="fname" name="fname" />
+          </div>
+          <div>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" />
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
